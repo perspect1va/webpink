@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Простой список дел</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .underlined {
+      text-decoration: line-through;
+    }
+  </style>
+</head>
+<body>
+    <h2 style="text-align: center;">Список дел</h2>
+  <input type="text" id="taskInput" placeholder="Введите задачу">
+  <button onclick="removeLastTask()">Удалить последнюю задачу</button>
+  <button id="clearBtn" onclick="clearAllTasks()">Очистить все задачи</button>
+  <ul id="taskList"></ul>
+  <script src="main.js"></script>
+</body>
+</html>

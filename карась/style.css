@@ -1,0 +1,88 @@
+/* Общие стили для страницы */
+body {
+    background-image: url('back.gif');
+    background-size: cover;           /* Заполняет весь экран */
+    background-repeat: repeat;        /* Повторяет узор */
+    background-position: center;      /* Центрирует изображение */
+    background-attachment: fixed;     /* Фиксирует фон при прокрутке */
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: white;                     /* Белый текст для контраста */
+  }
+  
+  
+  /* Заголовок по центру */
+  h2 {
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  /* Поле ввода задачи */
+  #taskInput {
+    padding: 8px;
+    font-size: 14px;
+    width: 220px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Общие стили для всех кнопок */
+  button {
+    padding: 8px 12px;
+    font-size: 14px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Зелёная кнопка "Добавить задачу" */
+  #addBtn {
+    background-color: green;
+    color: white;
+  }
+  
+  #addBtn:hover {
+    background-color: darkgreen;
+  }
+  
+  /* Красная кнопка "Очистить все задачи" */
+  #clearBtn {
+    background-color: red;
+    color: white;
+  }
+  
+  #clearBtn:hover {
+    background-color: darkred;
+  }
+  
+  /* Синяя кнопка "Удалить последнюю задачу" */
+  #removeBtn {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  #removeBtn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Список задач */
+  #taskList {
+    margin-top: 20px;
+    padding-left: 0;
+    list-style-type: none;
+  }
+  
+  /* Отдельная задача */
+  #taskList li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  /* Зачёркнутый текст */
+  .underlined {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
